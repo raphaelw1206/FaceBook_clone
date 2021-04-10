@@ -1,0 +1,55 @@
+.story{
+position: relative;
+background-position: center center;
+background-repeat: no-repeat;
+width: 155px;
+height: 200px;
+box-shadow: 10px 25px 15px 1px rgba(0, 0, 0, 0.75);
+border-radius: 10px;
+margin-right:10px;
+transition:transform 10ms ease-in;
+cursor: pointer;
+
+}
+.story:hover{
+ transform: scale(1.05);
+
+}
+.active-gradient>h4 {
+
+    color:white;
+    
+}
+
+.avatar{
+
+}
+
+.active-gradient::before {
+display:block;
+border-radius: 10000%;
+content:'';
+width:31%;
+height: 24%;
+position:absolute;
+top:-4px;
+left:-3px;
+
+background-image: conic-gradient(#5fccecde, #fff, #00AEEF, #FFF, #00AEEF);
+animation:spin 5s linear infinite;
+
+}
+@keyframes spin{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+
+.story > h4 {
+
+    bottom: 50px;
+    left: 10px;
+    color:white;
+
+}

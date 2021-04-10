@@ -1,0 +1,12 @@
+.story-reel{
+    display: flex;
+    margin-top:10px;
+    align-items: space-evenly !important;
+    align-content: space-evenly !important;
+    justify-content: space-evenly !important;
+    justify-items: space-evenly;
+    align-self: space-evenly !important;
+
+
+   
+}
